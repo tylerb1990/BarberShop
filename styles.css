@@ -1,0 +1,212 @@
+/* General Styling */
+body{
+    background-color: linen;
+}
+h1{
+    color: white;
+    font-size: 4.5rem;
+}
+h2{
+    font-size: 3.5rem;
+    color: #171749;
+}
+h3{
+    font-size: 2rem;
+}
+h4{
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+p{
+    margin: 0;
+}
+blockquote{
+    font-size: 2rem;
+    color: black;
+    font-style: italic;
+}
+a{
+    color: white;
+}
+
+
+/* Broad Page Styling */
+.head{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #171749;
+}
+.main{
+    padding: 0;
+}
+.logo-text{
+    color: white;
+    font-size: 2rem;
+}
+.social-icon{
+    margin: .5rem 0 0 .75rem;
+    width: 32px;
+    height: 32px;
+}
+.barber-button{
+    margin-top: 3rem;
+    padding: 1rem 3rem;
+    color: white;
+    border: none;
+    background-color: #171749;
+}
+.barber-button:hover{
+    background-color: black;
+}
+.barber-button-alt{
+    margin-top: 2rem;
+    padding: .5rem 1rem;
+    color: #171749;
+    border-color: #171749;
+}
+.barber-button-alt:hover{
+    color: white;
+    background-color: #171749;
+    border: none;
+}
+.footer{
+    font-size: .75rem;
+    padding: 1rem;
+    color: white;
+    background-color: #171749;
+}
+.hero-alt{
+    padding-top: 6rem;
+    height: 300px;
+}
+
+
+/* Home Page Styling */
+.hero{
+    background-image: url(images/hero-background.jpg);
+    height: 500px;
+    margin-bottom: 10rem;
+}
+.hero-inner{
+    padding-top: 100px;
+}
+.motto{
+    margin-bottom: 10rem;
+}
+.cards-section{
+    padding: 2rem;
+    background-color: white;
+    border: solid 1px lightgrey;
+    box-shadow: 1px 5px 5px lightgrey;
+    margin-bottom: 15rem;
+}
+.cards{
+    margin-top: 2rem;
+}
+.card{
+    margin-left: .75rem;
+    border-radius: 0px;
+    padding: 2rem;
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+.card-image{
+    object-fit:cover;
+    height: 300px;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: 1px 5px 5px lightgrey;
+    border: solid 2px darkgray;
+}
+.service-des{
+    width: 500px;
+}
+.posts-section{
+    margin-bottom: 15rem;
+}
+.posts-container{
+    margin-top: 1rem;
+    padding: 3rem;
+}
+.posts-img{
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 1px 5px 5px lightgrey;
+    border: solid 2px darkgray;
+}
+.post-title{
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    border-left: solid 2px #171749;
+}
+
+
+/* Services Styling */
+.services-hero{
+    background-image: url(images/services-hero.jpg);
+}
+.packages-section{
+    padding: 7rem;
+}
+.package{
+    margin: 2rem;
+    padding: 0;
+    background-color: white;
+}
+.package-heading{
+    margin-bottom: 2rem;
+    padding: 1rem;
+    color: white;
+    background-color: #171749;
+}
+.tab{
+    margin-left: 2rem;
+}
+.package-price{
+    margin: 0;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: white;
+    background-color: #171749;
+}
+.extra-section{
+    margin: 10rem auto;
+}
+.blue{
+    margin-top: 1rem;
+    padding: .5rem 1rem;
+    color: white;
+    background-color: #171749;
+}
+
+
+/* Our Work Styling */
+.work-hero{
+    background-image: url(images/her-alt-bg.jpg);
+}
+.work-section{
+    padding: 7rem 10rem;
+}
+.post{
+    margin-top: 3rem;
+}
+
+
+/* Contact Styling */
+.hero-contact{
+    background-image: url(images/contact-hero.jpg);
+}
+.form{
+    padding: 7rem;
+}
+form{
+    margin: 3rem auto;
+}
+.details{
+    padding: 7rem;
+}
+.details-title{
+    margin-top: 3rem;
+}
