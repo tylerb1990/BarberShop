@@ -90,6 +90,9 @@ a{
 .hero-inner{
     padding-top: 100px;
 }
+.hero-title{
+    color: black;
+}
 .motto{
     margin-bottom: 10rem;
 }
