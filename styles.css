@@ -31,9 +31,8 @@ a{
 
 
 /* Broad Page Styling */
-.head{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+.navigation{
+    padding: 1rem 5rem;
     background-color: #171749;
 }
 .main{

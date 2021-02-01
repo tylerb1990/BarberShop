@@ -11,57 +11,65 @@
 
         <title>Barber Shop</title>
     </head>
+
+    <!-- Body -->
     <body>
-        <nav class="navbar-dark head">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h1 class="logo-text">Barber Shop</h1>
+        <!-- Navigation Bar -->
+        <nav class="navbar-dark navigation">
+            <div class="row">
+                <div class="col">
+                    <span class="logo-text">Barber Shop</span>
+                </div>
+                <div class="col-6">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="ourWork.html">Our Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="container">
+                        <a href="#">
+                            <img class="social-icon float-end" src="images/facebook.svg" alt="facebook">
+                        </a>
+                        <a href="#">
+                            <img class="social-icon float-end" src="images/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="#">
+                            <img class="social-icon float-end" src="images/twitter.svg" alt="twitter">
+                        </a>
                     </div>
-                    <div class="col-6">
-                        <ul class="nav justify-content-center">
-                            <li class="nav-item">
-                              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="services.html">Services</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="ourWork.html">Our Work</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <div class="container">
-                            <a href="#">
-                                <img class="social-icon float-end" src="images/facebook.svg" alt="facebook">
-                            </a>
-                            <a href="#">
-                                <img class="social-icon float-end" src="images/instagram.svg" alt="instagram">
-                            </a>
-                            <a href="#">
-                                <img class="social-icon float-end" src="images/twitter.svg" alt="twitter">
-                            </a>
-                        </div>
-                    </div>
-                </div>   
+                </div>
             </div>
         </nav>
 
-        <div class="container-fluid main">
-            <div class="container-fluid hero">
+        <!-- Main -->
+        <main class="container-fluid main">
+
+            <!-- Hero Section -->
+            <section class="container-fluid hero">
                 <div class="container-sm text-center hero-inner">
                     <h1 class="hero-title">Giving you a legendary haircut with traditional service.</h1>
-                    <button type="button" class="btn btn-primary barber-button">Schedule an Appointment</button>
+                    <a href="contact.html" class="btn btn-primary barber-button">Schedule an Appointment</a>
                 </div>
-            </div>
-            <div class="container text-center motto">
+            </section>
+
+            <!-- Motto Section -->
+            <section class="container text-center motto">
                 <blockquote>"Whatever you hear at the barber shop, stays at the barber shop" - Bernie Mac</blockquote>
-            </div>
-            <div class="text-center cards-section">
+            </section>
+
+            <!-- Services Section -->
+            <section class="text-center cards-section">
                 <h2 class="card-title">What we do</h2>
                 <div class="row cards">
                     <div class="col card">
@@ -88,41 +96,42 @@
                 </div>
                 <div class="row">
                     <div class="text-centered">
-                         <button type="button" class="btn btn-primary barber-button">Our Services</button>
+                        <a href="services.html" class="btn btn-primary barber-button">Our Services</a>
                     </div>
                 </div>
-            </div>
-            <div class="posts-section">
-                <h2 class="text-center">Recent Work</h2>
-                <div class="container-fluid posts-container">
-                    <div class="row">
-                        <div class="col">
-                            <img class="img-fluid posts-img" src="images/img1.jpg" alt="post image">
-                            <h3 class="post-title">Beard care tips</h3>
-                            <p>Learn all about the best beard care tips to promote growth and strength and to achieve the best looking beard of your life.</p>
-                            <button type="button" class="btn btn-outline-primary barber-button-alt">Learn more</button>
-                        </div>
-                        <div class="col">
-                            <img class="img-fluid posts-img" src="images/img2.jpg" alt="post image">
-                            <h3 class="post-title">Trendy haircuts in 2021</h3>
-                            <p>Check out our vote for upcoming trendiest haircuts of 2021. All of our master barbers have trained in these and are ready for you.</p>
-                            <button type="button" class="btn btn-outline-primary barber-button-alt">Learn more</button>
-                        </div>
-                        <div class="col">
-                            <img class="img-fluid posts-img" src="images/img3.jpg" alt="post images">
-                            <h3 class="post-title">Our favorite work from 2020</h3>
-                            <p>Here are our favorite styles we did onn our clients last year. Cheers 2020, we will not miss you.</p>
-                            <button type="button" class="btn btn-outline-primary barber-button-alt">Learn more</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+            </section>
 
-        <div class="text-center footer">
+            <!-- Recent Posts Section -->
+            <section class="container-fluid posts-section">
+                <h2 class="text-center">Recent Work</h2>
+                <div class="row">
+                    <div class="col">
+                        <img class="img-fluid posts-img" src="images/img1.jpg" alt="post image">
+                        <h3 class="post-title">Beard care tips</h3>
+                        <p>Learn all about the best beard care tips to promote growth and strength and to achieve the best looking beard of your life.</p>
+                        <button type="button" class="btn btn-outline-primary barber-button-alt">Learn more</button>
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid posts-img" src="images/img2.jpg" alt="post image">
+                        <h3 class="post-title">Trendy haircuts in 2021</h3>
+                        <p>Check out our vote for upcoming trendiest haircuts of 2021. All of our master barbers have trained in these and are ready for you.</p>
+                        <button type="button" class="btn btn-outline-primary barber-button-alt">Learn more</button>
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid posts-img" src="images/img3.jpg" alt="post images">
+                        <h3 class="post-title">Our favorite work from 2020</h3>
+                        <p>Here are our favorite styles we did onn our clients last year. Cheers 2020, we will not miss you.</p>
+                        <button type="button" class="btn btn-outline-primary barber-button-alt">Learn more</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="text-center footer">
             <p>Barber Shop | 2021 All Rights Reserved</p>
             <p>Designed by Design Company</p>
-        </div>
+        </footer>
         
 
         <!-- Bootstrap JS-->

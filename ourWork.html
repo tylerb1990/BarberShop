@@ -11,56 +11,60 @@
 
         <title>Barber Shop</title>
     </head>
+
+    <!-- Body -->
     <body>
-        <!-- Header/Nav -->
-        <nav class="navbar-dark head">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h1 class="logo-text">Barber Shop</h1>
+         <!-- Navigation Bar -->
+         <nav class="navbar-dark navigation">
+            <div class="row">
+                <div class="col">
+                    <span class="logo-text">Barber Shop</span>
+                </div>
+                <div class="col-6">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" href="ourWork.html">Our Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="container">
+                        <a href="#">
+                            <img class="social-icon float-end" src="images/facebook.svg" alt="facebook">
+                        </a>
+                        <a href="#">
+                            <img class="social-icon float-end" src="images/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="#">
+                            <img class="social-icon float-end" src="images/twitter.svg" alt="twitter">
+                        </a>
                     </div>
-                    <div class="col-6">
-                        <ul class="nav justify-content-center">
-                            <li class="nav-item">
-                              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="services.html">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="ourWork.html">Our Work</a>
-                              </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col">
-                        <div class="container">
-                            <a href="#">
-                                <img class="social-icon float-end" src="images/facebook.svg" alt="facebook">
-                            </a>
-                            <a href="#">
-                                <img class="social-icon float-end" src="images/instagram.svg" alt="instagram">
-                            </a>
-                            <a href="#">
-                                <img class="social-icon float-end" src="images/twitter.svg" alt="twitter">
-                            </a>
-                        </div>
-                    </div>
-                </div>   
+                </div>
             </div>
         </nav>
         
         <!-- Main -->
-        <div class="container-fluid main">   
-            <div class="container-fluid hero-alt work-hero">
+        <div class="container-fluid main">  
+
+            <!-- Title Section -->
+            <section class="container-fluid hero-alt work-hero">
                 <div class="container-sm text-center hero-inner-alt">
                     <h1>Only the freshest cuts, tips and info!</h1>
                 </div>
-            </div>
+            </section>
 
-            <div class="container-fluid work-section">
+            <!-- Work Posts Section -->
+            <section class="container-fluid work-section">
+                <h2 class="text-center">Our Work</h2>
                 <div class="row">
                     <div class="col post">
                         <img class="img-fluid posts-img" src="images/img1.jpg" alt="post image">
@@ -101,7 +105,7 @@
                         <button type="button" class="btn btn-outline-primary barber-button-alt">Read more</button>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
 
         <!-- Footer -->
@@ -109,6 +113,7 @@
             <p>Barber Shop | 2021 All Rights Reserved</p>
             <p>Designed by Design Company</p>
         </div>
+
 
         <!-- Bootstrap JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
